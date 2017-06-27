@@ -90,4 +90,21 @@ def number_to_short_month_name(month_number)
   return month_name[0..2]
 end
 
+def cube_volume(length_of_side)
+  return length_of_side ** 3
+end
+
+def sphere_volume(radius)
+  return ((4.00/3.00) * Math::PI * radius**3).round(6)
+end
+
+
+
+
+
+
+
+
+
+
 
